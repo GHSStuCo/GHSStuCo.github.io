@@ -3,6 +3,9 @@ p{
 	margin-right: 7.5%;
 	margin-top: 2.5%;
 }
+::selection{
+	background: orange;
+}
 a{
 	color: black;
 
@@ -79,7 +82,7 @@ td{
 .members{
 	
 	width: 150px;
-	height: auto;
+	height: 188px;
 }
 .membersh1{
 	margin-right: 7.5%;
