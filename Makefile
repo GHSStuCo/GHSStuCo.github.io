@@ -1,4 +1,4 @@
-all: Documents.html Home.html Members.html Suggestions.html index.html
+all: Documents.html Home.html Members.html Suggestions.html index.html Calendar.html
 %.html:
 	cp ../ghsstucowebsite/$@ $@
 index.html:
