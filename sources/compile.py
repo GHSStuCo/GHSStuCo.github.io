@@ -1,5 +1,6 @@
 import sys
 import subprocess
+from importlib import import_module
 
 def template(file):
   while(file.find("<template>") != -1): # While there are still templates
@@ -10,7 +11,8 @@ def template(file):
     data = data.split("\n")
     name = data[0]
     if (name == "exec"): # If this an execute template
-      template_data = subprocess.check_output("python ./Templates/"+data[1]+".py", shell=True)
+      template_data = import_module("Templates." + data[1]).main()
+      # template_data = subprocess.check_output("python ./Templates/"+data[1]+".py", shell=True)
     else:
       for i in xrange(1, len(data)-1):
         cur_row = data[i].split("=")
