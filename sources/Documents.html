@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GHS StuCo Documents and Comittees</title>
+	<link rel="icon" href="Resources/logo.png">
+	<link rel="stylesheet" href="Resources/base.css">
+</head>
+<body>
+
+	<center>
+		<a href="Home.html">
+			<img src="Resources/header.png" class="header">
+		</a>
+		<div class="menu">
+			<ul>
+				<li class="leftitem "><a href="Home.html" >Home</a></li>
+				<li><a  href="Members.html" >Members</a></li>
+				<li><a class="selected" href="Documents.html" >Documents and Committees</a></li>
+				<li><a  href="Calendar.html">Calendar</a></li>
+				<li><a  href="Suggestions.html" >Suggestion Form</a></li>
+			</ul>
+		</div>
+	</center>
+
+<p>
+		<b>Website/Publicity Committee</b> (Daniel Rebelsky - Chair)</br>
+		Aidan Brownell, Matthew Cunningham, Hans Larsson, Daniel Rebelsky, Lane Thompson</br></br>
+
+		<b>Green Committee</b> (Julia Chamberland - Chair)</br>
+		Tanner Alger, Jonny Ambrosio, Mary Blanchard, Julia Chamberland, Matthew Cunningham, Barrett Edwards, Gillian Ferguson, Eli Ivanov</br></br>
+
+		<b>Mental Health Awareness Committee</b> (Bella Amador-Lacson - Chair)</br>
+		Tanner Alger, Bella Amador-Lacson, Jonny Ambrosio, Theresa Crawford, Barrett Edwards, Payal Patel</br></br>
+
+		<b>Bond Committee</b> (Julia Chamberland - Chair)</br>
+		Bella Amador-Lacson, Julia Chamberland, Barrett Edwards</br></br>
+
+		<b>Homecoming Committee</b> (Mary Blanchard - Chair)</br>
+		Jonny Ambrosio, Mary Blanchard, Gillian Ferguson, Eli Ivanov, Cole McGriff, Payal Patel, Eli Rose, Lane Thompson</br></br>
+
+		<b>Invisible Closet Committee</b> (Bethany Stratford - Chair)</br>
+		Theresa Crawford, Cole McGriff, Eli Rose</br></br>
+
+		<b>Blood Drive Committee</b> </br>
+		Cole McGriff, Eli Rose</br>
+
+</p>
+			<table>
+			<tr>
+				<th></th>
+				<th>Name of Document</th>
+				<th>Link</th>
+				<th>Description</th>
+			</tr>
+			<tr>
+				<td class="googleimage docs"><a href="https://docs.google.com/document/d/1Y3yk-4rl_dAix56zAonTWbAfxPUFKz9kzvogj2nrnaw/edit?usp=drive_web" target="_blank">
+				<img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png">
+				</a></td>
+				<td class="wideelem docs"><a href="https://docs.google.com/document/d/1jALMT-BSyAzdKaF-xnoL902fFryusqVDHgS0JQJo-BQ/edit?usp=sharing" target="_blank">Student Council Minutes</a></td>
+				<td class="button js-copy-Minutes-btn docs">Copy the link</td>
+				<td class="tabledescription docs">Minutes for the GHS Student Council</td>
+			</tr>
+			<tr>
+				<td class="googleimage docs">
+					<a href="https://docs.google.com/a/grinnell-k12.org/document/d/1sDku90zt_-Xba0q6xy84ELmirA8jY_LNnM85A0MDrQo/edit?usp=drive_web" target="_blank">
+						<img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png">
+						</a></td>
+					<td class="wideelem docs">
+						<a href="https://docs.google.com/document/d/1FhZcngmGJ4QkxA5woUmOpZTusgjdN6sgxiTqtA3V5o4/edit?usp=sharing" target="_blank">
+							Student Council Agenda</a>
+						</td>
+						<td class="button js-copy-Agenda-btn docs">Copy the link</td>
+						<td class="tabledescription docs">Agenda for the GHS Student Council</td>
+					</tr>
+					<tr>
+						<td class="googleimage docs">
+							<a href="https://docs.google.com/a/grinnell-k12.org/document/d/1KDDjILHY6pWnmU9jea5eiR6CWESVQr2Ajcw9LniVviY/edit?usp=drive_web" target="_blank">
+								<img src="https://ssl.gstatic.com/docs/doclist/images/mediatype/icon_1_document_x16.png">
+							</td>
+							<td class="wideelem docs"><a href="https://docs.google.com/a/grinnell-k12.org/document/d/1KDDjILHY6pWnmU9jea5eiR6CWESVQr2Ajcw9LniVviY/edit?usp=drive_web" target="_blank">Student Council Constitution</a></td>
+							<td class="button js-copy-Constitution-btn docs">Copy the link</td>
+							<td class="tabledescription docs">The constitution for the GHS Student Council </td>
+						</tr>
+					</table>
+
+
+
+					<script>
+						function copyTextToClipboard(text) {
+							var textArea = document.createElement("textarea");
+
+	//http://stackoverflow.com/a/30810322/6199137
+	textArea.style.position = 'fixed';
+	textArea.style.top = 0;
+	textArea.style.left = 0;
+	textArea.style.width = '2em';
+	textArea.style.height = '2em';
+	textArea.style.padding = 0;
+	textArea.style.border = 'none';
+	textArea.style.outline = 'none';
+	textArea.style.boxShadow = 'none';
+	textArea.style.background = 'transparent';
+
+	textArea.value = text;
+
+	document.body.appendChild(textArea);
+
+	textArea.select();
+
+	try {
+		document.execCommand('copy');
+	} catch (err) {
+		console.log('Oops, unable to copy');
+	}
+
+	document.body.removeChild(textArea);
+}
+
+
+var copy1Btn = document.querySelector('.js-copy-Minutes-btn'),
+copy2Btn = document.querySelector('.js-copy-Agenda-btn');
+copy3Btn = document.querySelector('.js-copy-Constitution-btn');
+
+copy1Btn.addEventListener('click', function(event) {
+	copyTextToClipboard('https://docs.google.com/document/d/1Y3yk-4rl_dAix56zAonTWbAfxPUFKz9kzvogj2nrnaw/edit?usp=drive_web');
+});
+
+
+copy2Btn.addEventListener('click', function(event) {
+	copyTextToClipboard('https://docs.google.com/a/grinnell-k12.org/document/d/1sDku90zt_-Xba0q6xy84ELmirA8jY_LNnM85A0MDrQo/edit?usp=drive_web');
+});
+
+copy3Btn.addEventListener('click', function(event) {
+	copyTextToClipboard('https://docs.google.com/a/grinnell-k12.org/document/d/1KDDjILHY6pWnmU9jea5eiR6CWESVQr2Ajcw9LniVviY/edit?usp=drive_web');
+});
+</script>
+</body>
+</html>
