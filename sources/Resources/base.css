@@ -97,7 +97,7 @@ td{
 .menu .selected{
 	background-color: rgb(77, 77, 77);
 }
-.members, td:first-child{
+.members {
 	width: 150px;
 	height: 188px;
 }
