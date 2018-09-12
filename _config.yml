@@ -1,1 +1,1 @@
-exclude: ["sources/", "Sources/"]
+exclude: ["Sources/", "Templates/", "compile.py"]
