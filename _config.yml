@@ -1,1 +1,1 @@
-exclude: ["sources/"]
+exclude: ["sources/", "Sources/"]
