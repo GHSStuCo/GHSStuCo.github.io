@@ -6,7 +6,7 @@ selected=members
 <style>
 .members, td:first-child{
 	width: 150px;
-	height: 188px;
+	height: 200px;
 }
 </style>
 	<center>
