@@ -25,7 +25,8 @@ def main():
     chair = ""
     for line in file:
       if(line[0] == "-"):
-        members.sort(key = lambda a: a.split(" ")[1])
+        # Sort by last name, first name
+        members.sort(key = lambda a: "".join(a.split(" ")[::-1]).lower())
         committees.append(template_replace(committee_template, ["{name}", "{chair}", "{members}"], [name, chair, ", ".join(members)]))
       elif(line[0] == "*"):
         name, chair = line.strip().split("|")
