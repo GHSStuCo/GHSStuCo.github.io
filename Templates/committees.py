@@ -28,7 +28,7 @@ def main():
         members.sort(key = lambda a: a.split(" ")[1])
         committees.append(template_replace(committee_template, ["{name}", "{chair}", "{members}"], [name, chair, ", ".join(members)]))
       elif(line[0] == "*"):
-        name,chair = line.strip().split("|")
+        name, chair = line.strip().split("|")
         name = name[1:] # Remove initial * character
         members = []
       else:
