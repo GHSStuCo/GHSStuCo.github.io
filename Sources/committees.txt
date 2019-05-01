@@ -6,7 +6,6 @@ Lane Thompson
 Lewis Jolly
 -
 *Green Committee|(Julia Chamberland - Chair)
-Julia Chamberland
 Mary Blanchard
 Barrett Edwards
 Eli Ivanov
@@ -17,6 +16,7 @@ Jonny Ambrosio
 Bridget Blanchard
 Aidan Brownell
 Lewis Jolly
+Jose Nino
 Daniel Rebelsky
 -
 *Mental Health Committee|(Maria Amador-Lacson - Chair)
@@ -26,23 +26,9 @@ Jonny Ambrosio
 Barrett Edwards
 Theresa Crawford
 Tanner Alger
-José Niño
+Jose Nino
 -
-*Invisible Closet Committee|(Theresa Crawford - Chair)
-Julia Chamberland
-Jacob Gosselink
-José Niño
-Thea Larsson
-Maddy Strovers
-Bridget Blanchard
-Theresa Crawford
-Daniel Rebelsky
-Lewis Jolly
-Eli Rose
-Barrett Edwards
-Josh Osborne
--
-*Dance Decorations/Whirl Committee|(Mary Blanchard - Chair) 
+*Dance Decorations Committee|(Mary Blanchard  - Chair)
 Payal Patel
 Cole McGriff
 Jacob Gosselink
@@ -57,4 +43,31 @@ Maddy Strovers
 Thea Larsson
 Jose Nino
 Bridget Blanchard
+-
+*Invisible Closet Committee|(Theresa Crawford - Chair)
+Julia Chamberland
+Jacob Gosselink
+Jose Nino
+Thea Larsson
+Maddy Strovers
+Bridget Blanchard
+Theresa Crawford
+Daniel Rebelsky
+Lewis Jolly
+Eli Rose
+Barrett Edwards
+Josh Osborne
+-
+*Blood Drive Committee|(Jonny Ambrosio - Chair)
+Eli Rose
+Cole McGriff 
+Josh Osborne
+Jacob Gosselink
+Maddy Strovers
+Thea Larsson
+Jonny Ambrosio
+-
+*Fundraising Committee|(Hope Nelson - Chair)
+Jacob Gosselink
+Thea Larsson
 -
