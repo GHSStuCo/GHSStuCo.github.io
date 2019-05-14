@@ -1,5 +1,5 @@
 objects := $(patsubst ./Sources/%,%,$(patsubst %.shtml,%.html,$(wildcard ./Sources/*.shtml)))
-all : $(objects)
+all : $(objects) index.html
 %.html: ./Sources/%.shtml ./Templates/header.thtml
 	python compile.py $@
 Members.html: ./Sources/Members.shtml ./Templates/header.thtml ./Templates/members.py ./Sources/members.txt ./Templates/member.thtml
