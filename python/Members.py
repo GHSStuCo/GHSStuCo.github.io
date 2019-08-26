@@ -1,3 +1,5 @@
+from os.path import exists
+
 def main():
   members = {}
   groups = []
@@ -10,5 +12,7 @@ def main():
         members[id] = []
       elif(line != ''):
         image, position, name, bio = unicode(line, "utf8").split('\t')
+        if(not exists('People/' + image + '.png')):
+          image = 'default'
         members[id].append({'image': image, 'position': position, 'name': name, 'bio': bio})
   return {'members': members, 'groups': groups}
