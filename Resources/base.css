@@ -1,40 +1,46 @@
-p{
+#content {
 	margin-left: 7.5%;
 	margin-right: 7.5%;
 	margin-top: 2.5%;
 }
-::selection{
+
+::selection {
 	background: orange;
 }
-a{
+
+a {
 	color: black;
 
 }
-a:hover{
+
+a:hover {
 	color: grey;
 }
-body{
+
+body {
 	margin:0px;
 	cursor: default;
 }
-iframe{
+
+iframe {
 	border:0;
 }
-table{
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	width: 85%;
+
+table {
 	text-align: left;
 	border-collapse: collapse;
 	font-size: 16px;
 }
-table p,table h2,table h3{
+
+table p,table h2,table h3 {
 	margin: 0;
 	margin-bottom: 5px;
 }
-td{
+
+td {
 	vertical-align: top;
 }
+
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
@@ -44,6 +50,7 @@ td{
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
+
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
@@ -57,29 +64,35 @@ td{
     border-bottom: 1px solid #dddddd;
     white-space: nowrap;
 }
-.docs a, th{
+
+.docs a, th {
 	padding-left: 1%;
 	padding-right: 1%;
 }
-.wideelem{
+
+.wideelem {
 	width: 100%;
 }
+
 .header {
 	margin:0px;
 	width: 95%;
 }
-.menu ul{
+
+.menu ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: rgb(99,99,99);
 }
-.menu li{
+
+.menu li {
 	float: left;
 	display: block;
 	color: #FF6100;
 }
+
 .menu li a {
 	display: block;
 	color: white;
@@ -88,39 +101,43 @@ td{
 	text-decoration: none;
 	color: #FFFFFF;
 }
-.menu li a:hover{
+
+.menu li a:hover {
 	background-color: rgb(77, 77, 77);
 }
-.menu .leftitem{
+
+.menu .leftitem {
 	margin-left: 7.5%
 }
-.menu .selected{
+
+.menu .selected {
 	background-color: rgb(77, 77, 77);
 }
+
 .members {
 	width: 150px;
 	height: 200px;
 }
-.membersh1{
-	margin-right: 7.5%;
-	margin-left: 7.5%;
-	margin-bottom: .5%;
-}
-.googleimage{
+
+.googleimage {
 	width: 16px;
 	padding-top: 4px;
 }
-.button{
+
+.button {
 	padding-left: 1%;
 	padding-right: 1%;
 }
-.button:hover{
+
+.button:hover {
 	background-color: #dddddd;
 }
-.button:active{
+
+.button:active {
 	background-color: #bbbbbb
 }
-.tabledescription{
+
+.tabledescription {
 	padding-left: 1%;
 	padding-right: 1%;
 }
