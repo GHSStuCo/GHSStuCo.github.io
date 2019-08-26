@@ -110,10 +110,10 @@ For example, suppose you're running an election between John, Jane, Bill, Bob, a
 
 You would want to enter (probably by copying and pasting from a spreadsheet)
 ```
-John  Jane  Bill  Bob
-John  Bill
+John	Jane	Bill	Bob
+John	Bill
 Jill
-Bob Bill  Jane  John
+Bob	Bill	Jane	John
 ```
 into the first textbox.
 
