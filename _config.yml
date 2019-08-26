@@ -1,1 +1,1 @@
-exclude: ["html/", "text/", "python/", "requirements.txt", "render.py"]
+exclude: ["html/", "text/", "python/", "requirements.txt", "render.py", "README.md", "makefile"]
