@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% set name='Members' %}
+{% set selected='members' %}
+{% block content %}
+<style>
+.members, td:first-child{
+	width: 150px;
+	height: 200px;
+}
+</style>
+	<center>
+		<p>Jump to:
+    {% for group in groups %}
+		<a href="#{{ group.id }}" class="button">{{ group.id|title }}</a>
+		{% endfor %}
+		</p>
+	</center>
+	{% for group in groups %}
+  <h1 class="membersh1" id="{{ group.id }}">{{ group.title }}</h1>
+    <table>
+      {% for member in members[group.id] %}
+      <tr>
+        <td>
+          <img class="members" src="People/{{ member.image }}.png">
+        </td>
+        <td>
+          <div style="margin-left: 15px;">
+            <h2>{{ member.position }}</h2>
+            <h3>{{ member.name }}</h3>
+            <p>{{ member.bio }}</p>
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  {% endfor %}
+{% endblock %}

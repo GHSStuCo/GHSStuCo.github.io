@@ -1,50 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>GHS StuCo Documents and Committees</title>
-	<link rel="icon" href="Resources/logo.png">
-	<link rel="stylesheet" href="Resources/base.css">
-</head>
-<body>
-	<center>
-		<a href="Home.html">
-			<img src="Resources/header.png" class="header">
-		</a>
-		<div class="menu">
-			<ul>
-				<li class="leftitem"><a href="Home.html">Home</a></li>
-				<li><a href="Members.html">Members</a></li>
-				<li><a class="selected" href="Documents.html">Documents and Committees</a></li>
-				<li><a href="Calendar.html">Calendar</a></li>
-				<li><a href="Suggestions.html">Suggestion Form</a></li>
-			</ul>
-		</div>
-	</center>
-
+{% extends "base.html" %}
+{% set name='Documents and Committees' %}
+{% set selected='documents' %}
+{% block content %}
 <p>
-
-<b>Website/Publicity Committee</b> (Daniel Rebelsky - Chair)</br>
-Aidan Brownell, Matthew Cunningham, Lewis Jolly, Daniel Rebelsky, Lane Thompson</br></br>
-
-<b>Green Committee</b> (Julia Chamberland - Chair)</br>
-Tanner Alger, Jonny Ambrosio, Bridget Blanchard, Mary Blanchard, Aidan Brownell, Matthew Cunningham, Barrett Edwards, Gillian Ferguson, Eli Ivanov, Lewis Jolly, José Niño, Daniel Rebelsky</br></br>
-
-<b>Mental Health Committee</b> (Maria Amador-Lacson - Chair)</br>
-Tanner Alger, Maria Amador-Lacson, Jonny Ambrosio, Theresa Crawford, Barrett Edwards, José Niño, Payal Patel</br></br>
-
-<b>Dance Decorations Committee</b> (Mary Blanchard  - Chair)</br>
-Jonny Ambrosio, Bridget Blanchard, Mary Blanchard, Gillian Ferguson, Jacob Gosselink, Eli Ivanov, Thea Larsson, Cole McGriff, José Niño, Josh Osborne, Payal Patel, Eli Rose, Maddy Strovers, Lane Thompson</br></br>
-
-<b>Invisible Closet Committee</b> (Theresa Crawford - Chair)</br>
-Bridget Blanchard, Julia Chamberland, Theresa Crawford, Barrett Edwards, Jacob Gosselink, Lewis Jolly, Thea Larsson, José Niño, Josh Osborne, Daniel Rebelsky, Eli Rose, Maddy Strovers</br></br>
-
-<b>Blood Drive Committee</b> (Jonny Ambrosio - Chair)</br>
-Jonny Ambrosio, Jacob Gosselink, Thea Larsson, Cole McGriff, Josh Osborne, Eli Rose, Maddy Strovers</br></br>
-
-<b>Fundraising Committee</b> (Hope Nelson - Chair)</br>
-Jacob Gosselink, Thea Larsson</br></br>
-
+{% for committee in committees %}
+<b>{{ committee.name }}</b> {{ committee.chair }}</br>
+{{ committee.members|join(', ') }}</br></br>
+{% endfor %}
 <table>
 	<tr>
 		<th></th>
@@ -132,6 +94,4 @@ copy3Btn.addEventListener('click', function(event) {
 	copyTextToClipboard('https://docs.google.com/a/grinnell-k12.org/document/d/1KDDjILHY6pWnmU9jea5eiR6CWESVQr2Ajcw9LniVviY/edit?usp=drive_web');
 });
 </script>
-
-</body>
-</html>
+{% endblock %}

@@ -1,0 +1,33 @@
+#Executive Members	executive
+Hope	Student Body President	Hope Nelson (Senior)	Hope Nelson is the Student Body President at Grinnell High School. She is involved in a vast amount of activities around the school ranging from volleyball to speech. Come to her if you have any thoughts or questions about the high school!
+Matthew	Student Body Vice President	Matthew Cunningham (Senior)	Matthew Cunningham is the Student Body Vice President. He is in cross country, track, golf, and Big Brothers Big Sisters. He enjoys looking at memes. Hit him up if you have any good ones.
+Mary	Student Body Secretary	Mary Blanchard (Junior)	Mary Blanchard is involved in cross country, basketball, soccer, StuCo (probably), band, and choir. She works as a soccer referee and at Dari Barn. Mary enjoys running, hanging out with her friends, playing with her dog Waldo, and just having a good time.
+Julia	School Board Liaison	Julia Chamberland	Julia is an active member of StuCo and is excited to be the School Board Liaison this year! She loves hearing ideas from the student body and wants to improve the lives of students at GHS.
+
+#Senior Class	senior
+Eli I	Senior Class President	Eli Ivanov	Eli Ivanov is involved in football, basketball, tennis, ambassadors, Big Brothers Big Sisters, and student council. Throughout his high school career he has been very active in the Grinnell community.
+Gillian	Senior Class Representative	Gillian Ferguson	Gillian Ferguson, Gilly for short, loves theatre and tennis. Let her know if you have questions about Student Council!
+Jose	Senior Class Representative	José Niño	José is a senior class representative on Student Council. Although this is his first (and last) time being on Student Council, he hopes to accomplish a lot this year. He is involved in numerous other activities other than Student Council including band, choir, debate, theatre, and the co-ed dance team.
+Daniel	Senior Class Representative	Daniel Rebelsky	Daniel Rebelsky is a senior class representative; he is willing to take comments or suggestions at any time. He is involved in many activities (including, but not limited to): band, choir, cross country, curtain club, swimming, tennis, and theatre.
+Lane	Senior Class Representative	Lane Thompson	Lane is a senior class representative who is involved in the homecoming and publicity committees.
+
+#Junior Class	junior
+Yonatan	Junior Class President	Yonatan Ambrosio	Yonatan Ambrosio is the class president for the junior class. He is involved in the Homecoming Committee, Green Committee, and the Mental Health Committee. Outside of the council he is involved in Choir, Theater, Curtain Club and Diversity Alliance.
+Bella	Junior Class Representative	Maria Amador-Lacson	If you have any concerns or ideas regarding the Mental Health committee, Maria is the chair this year so don't be afraid to bring anything up to her!
+Aidan	Junior Class Representative	Aidan Brownell	Aidan Brownell is a junior representative that is active in three sports and choir. He enjoys cross country, swimming, and soccer. If you have any recomendations or questions about Student Council, don't hesitate to ask!
+Theresa	Junior Class Representative	Theresa Crawford	Theresa Crawford is a junior class representative! Besides student council, she is also involved in cross country, color guard, FFA, tennis, Large Group and Individual Speech, Curtain Club and Thespian troupe. Outside of school she is a part her church, her local 4H club, State 4H Council, and studio dance. She is very excited to be involved in Student Council this next year!
+Lewis	Junior Class Representative	Lewis Jolly	Lewis is a junior class representative. One of his main initiatives he would like to see happen is to get free condoms in school for everyone.
+
+#Sophomore Class	sophomore
+Barrett	Sophomore Class President	Barrett Edwards	Barrett is the GHS Sophomore Class president. He enjoys participating in several extra circular activities including: Band, Jazz Band, Choir, Speech, Theater activities,  Debate, Model UN, Diversity Club, and GHS feminism. He is excited to be on student council and is open for any questions, requests, or concerns.
+Tanner	Sophomore Class Representative	Tanner Alger	Tanner Alger is in student council because he likes to do things that make a difference. If you want something done, find him and he'll do his best.
+Cole	Sophomore Class Representative	Cole McGriff	Cole McGriff plays sports. He likes to go to school.
+Payal	Sophomore Class Representative	Payal Patel	Payal Patel is a Sophomore Class Representative. The sports that she's in are Cross Country, Basketball, and Soccer.
+Eli R	Sophomore Class Representative	Eli Rose	Eli Rose like to play sports. His favorite is wrestling.
+
+#Freshman Class	freshman
+Thea	Freshman Class President	Thea Larsson	Thea Larsson is the Freshman Class President. She participates in cross country, track and field, swimming, 4-h, band, and choir.
+Bridget	Freshman Class Representative	Bridget Blanchard	Bridget Blanchard is a representative for the freshman class. Some other activities that she is involved in include cross country, soccer, band, and choir.
+Jacob	Freshman Class Representative	Jacob Gosselink	Jacob Gosselink is a fun, easy person to talk too! He enjoys hanging out with his friends and his dog.
+Josh	Freshman Class Representative	Josh Osborne	Josh likes to play sports and go to school. These things appeal to him because he can see his friends and learn new things.
+Maddy	Freshman Class Representative	Maddy Strovers	Maddy is a student council representative. She is involved in basketball, volleyball, track, and student council.
