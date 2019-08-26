@@ -29,7 +29,7 @@ Mary Smith
 Sam Smith
 Sal Smith
 
-*Random Committee(Jane Doe - Chair)
+*Random Committee|(Jane Doe - Chair)
 Jane Doe
 Mary Doe
 Sam Doe
