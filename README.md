@@ -103,6 +103,22 @@ def main():
 
 (See **Making Changes** to see how)
 
+## Runoff Calculator Usage
+Go to [https://ghsstuco.github.io/runoff.html](https://ghsstuco.github.io/runoff.html). Paste Google Sheets values into the first textbox (the values should be a grid of names where each row is a person's vote and each column is a different choice [first choice first column, second choice second column, etc...]); if you need to remove someone from the election, put their name in the second textbox. Then press the `Calculate!` button.
+
+For example, suppose you're running an election between John, Jane, Bill, Bob, and Sue. One person ranks the candidates: 1. John, 2. Jane, 3. Bill, and 4. Bob; another person ranks the candidates: 1. John, 2. Bill; another person ranks the candidates 1. Jill; and the last person ranks the candidates 1. Bob, 2. Bill, 3. Jane, 4. John. Suppose that John drops out of the election (say for example this is a class president election, but John has already won the student body president election). Suppose that Sue also drops out of the election.
+
+You would want to enter (probably by copying and pasting from a spreadsheet)
+```
+John  Jane  Bill  Bob
+John  Bill
+Jill
+Bob Bill  Jane  John
+```
+into the first textbox.
+
+You would also want to enter `John, Sue` in the second textbox.
+
 ## Installation
 
 1. Download the git repository
