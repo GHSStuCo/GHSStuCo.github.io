@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GHS StuCo Instant Runoff Calculator</title>
+	<link rel="icon" href="Resources/logo.png">
+	<link rel="stylesheet" href="Resources/base.css">
+</head>
+<body>
+	<center>
+		<a href="Home.html">
+			<img src="Resources/header.png" class="header">
+		</a>
+		<div class="menu">
+			<ul>
+				<li class="leftitem"><a href="Home.html">Home</a></li>
+				<li><a href="Members.html">Members</a></li>
+				<li><a href="Documents.html">Documents and Committees</a></li>
+				<li><a href="Calendar.html">Calendar</a></li>
+				<li><a href="Suggestions.html">Suggestion Form</a></li>
+			</ul>
+		</div>
+	</center>
+
+<p>Go to <a href="https://ghsstuco.github.io/runoff.html" class="uri">https://ghsstuco.github.io/runoff.html</a>. Paste Google Sheets values into the first textbox (the values should be a grid of names where each row is a person's vote and each column is a different choice [first choice first column, second choice second column, etc...]); if you need to remove someone from the election, put their name in the second textbox. Then press the <code>Calculate!</code> button.</p>
+<p>For example, suppose you're running an election between John, Jane, Bill, Bob, and Sue. One person ranks the candidates: 1. John, 2. Jane, 3. Bill, and 4. Bob; another person ranks the candidates: 1. John, 2. Bill; another person ranks the candidates 1. Jill; and the last person ranks the candidates 1. Bob, 2. Bill, 3. Jane, 4. John. Suppose that John drops out of the election (say for example this is a class president election, but John has already won the student body president election). Suppose that Sue also drops out of the election.</p>
+<p>You would want to enter (probably by copying and pasting from a spreadsheet)</p>
+<pre><code>John    Jane    Bill    Bob
+John    Bill
+Jill
+Bob Bill    Jane    John</code></pre>
+<p>into the first textbox.</p>
+<p>You would also want to enter <code>John, Sue</code> in the second textbox.</p>
+
+</body>
+</html>
